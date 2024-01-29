@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Odin;
+    src: url(Norse-Bold.otf);
+}
+body{
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div > p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+
+#pageLeft{
+    width: 40vw;
+    background-image: url("halie-west-leaves.jpg");
+    background-size: 40vw 100%;
+    background-repeat: no-repeat;
+    
+}
+#banner{
+    text-align: center;
+    background-color: #00000091;
+    margin-top: 200px;
+    font-family: Odin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#banner p{
+    font-size: 2rem;
+    color: white;
+}
+#banner img{
+    width: 100px;
+}
+#pageRight{
+    width: 60vw;
+    min-width: 500px;
+    padding: 0px;
+    background-color: #f1f2f3;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#form-box{
+    background-color: white;
+    padding-left: 50px;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+#form-entry {
+    padding:0px;
+    flex-direction: row;
+    display: flex;
+    ;
+}
+#form-entry #right {
+    margin-left:50px ;
+}
+ul{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+input{
+    width:100%;
+    border: 1px solid #E5E7EB;
+    height: 30px;
+    border-radius: 5px;
+}
+input:focus{
+    border: 2px solid #84cee0;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+button{
+    background-color: #596D48;
+    height: 50px;
+    width:150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 0px;
+    box-shadow: 5px 5px 10px darkgrey;
+}
